@@ -1,0 +1,17 @@
+function outest(){
+    var d=25;
+    function outer(c){
+    //var b=12;
+    function inner(){
+        console.log(b,c,d)
+    }
+     //let b=16;
+    return inner;
+
+}
+return outer;
+}
+let b=100;
+var close=outest()("Hello world");
+console.log(close);
+close();

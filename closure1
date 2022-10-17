@@ -1,0 +1,48 @@
+// function x(){
+//     var i =2;
+//     setTimeout(function(){
+//         console.log(i);
+
+//     },1000);
+// }
+// console.log("Namaste");
+// x();
+
+
+
+// function x(){
+//   for(var i=2;i<=10;i=i+2)
+//     setTimeout(function(){
+//         console.log(i);
+
+//     },4000);
+// }
+// console.log("Namaste");
+// x();
+
+
+// function x(){
+//     for(let i=2;i<=10;i=i+2)
+//       setTimeout(function(){
+//           console.log(i);
+  
+//       },4000);
+//   }
+//   console.log("Namaste");
+//   x();
+
+function x(){
+    for(var i=2;i<=10;i=i+2){
+    function close(x){
+      setTimeout(function(){
+          console.log(x);
+  
+      },1000);
+    
+      
+  }
+  close(i);
+    }
+  console.log("Namaste");
+}
+  x();

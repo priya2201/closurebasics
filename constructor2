@@ -1,0 +1,17 @@
+function Counter(){
+    var count =20;
+    this.incrementMultiply=function(){
+        count *5;
+console.log(count)
+    }
+    this.decrementMultiply=function(){
+        count / 5;
+console.log(count)
+    }
+}
+var count1=new Counter();
+count1.incrementMultiply();
+count1.incrementMultiply();
+count1.incrementMultiply();
+count1.decrementMultiply();
+count1.decrementMultiply();

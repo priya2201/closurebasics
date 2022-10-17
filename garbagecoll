@@ -1,0 +1,10 @@
+function b(){
+    var a=10,d=20;
+    return function c(){
+        console.log(a);
+    
+    }
+    
+}
+var y=b();
+y();

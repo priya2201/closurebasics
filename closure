@@ -1,0 +1,14 @@
+function d(){ 
+    var e =200;
+    function a(){
+    var b=12;
+    function c(){
+        console.log(b,e);
+    }
+    b=250;
+    c();
+}
+a();
+
+}
+d();
