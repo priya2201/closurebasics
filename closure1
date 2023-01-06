@@ -31,18 +31,23 @@
 //   console.log("Namaste");
 //   x();
 
-function x(){
-    for(var i=2;i<=10;i=i+2){
-    function close(x){
-      setTimeout(function(){
-          console.log(x);
+// function x(){
+//     for(var i=2;i<=10;i=i+2){
+//     function close(x){
+//       setTimeout(function(){
+//           console.log(x);
   
-      },1000);
+//       },1000);
     
       
-  }
-  close(i);
-    }
-  console.log("Namaste");
-}
-  x();
+//   }
+//   close(i);
+//     }
+//   console.log("Namaste");
+// }
+//   x();
+
+// console.log(x);
+console.log(x1);
+let x=3;
+var x1=2;

@@ -12,3 +12,13 @@ a();
 
 }
 d();
+
+
+function k(){
+    let obj={'name':'priya'};
+    function c(){
+    console.log(obj.name);
+    }
+    c();
+}
+k();
